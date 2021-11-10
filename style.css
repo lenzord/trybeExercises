@@ -1,0 +1,56 @@
+body {
+  font-family: Poppins, sans-serif;
+  background: linear-gradient(139deg, rgb(6, 255, 6), rgb(0, 183, 255), red);
+}
+
+.header-name {
+  color: #000;
+  display: flex;
+  font-size: 3em;
+  font-family: Cabin, Poppins;
+  justify-content: center;
+}
+
+.personal-description {
+  display: flex;
+  justify-content: center;
+}
+
+.my-image {
+  float: right;
+  width: auto;
+  height: 400px;
+  shape-outside: url(/WhatsApp_Image_2021-10-29_at_18.14.04-removebg-preview.png);
+}
+
+.personal-text {
+  width: 30%;
+  font-size: 1em;
+  text-align: justify;
+  line-height: 27px;
+}
+
+.personal-text::first-letter {
+  font-size: 3em;
+  color: red;
+}
+
+.lists {
+  display: flex;
+  justify-content: center;
+}
+
+.lists ul {
+  margin: 20px 100px 20px 100px;
+}
+
+.notion-link {
+  display: flex;
+  justify-content: center;
+  text-decoration: none;
+
+}
+
+.notion-link a {
+  padding: 20px;
+}
